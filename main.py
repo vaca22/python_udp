@@ -9,6 +9,7 @@ print("fuck")
 # 创建 socket
 sk = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 # 绑定 IP 和端口号
+#这是是自己电脑的ip
 sk.bind(('192.168.5.101', 6000))
 while True:
     # 接收数据报
