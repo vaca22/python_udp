@@ -9,7 +9,7 @@ print("fuck")
 # 创建 socket
 sk = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 # 绑定 IP 和端口号
-sk.bind(('127.0.0.1', 6000))
+sk.bind(('192.168.5.101', 6000))
 while True:
     # 接收数据报
     msg, addr = sk.recvfrom(1024)
